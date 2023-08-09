@@ -29,7 +29,7 @@ module.exports = {
       }
     ],
     'vue/no-setup-props-destructure': ['off'],
-    // 未定义变量错误提示，'off'关闭校验
-    'no-undef': 'off'
+    // 未定义变量错误提示，'off'关闭校验 'error'打开校验
+    'no-undef': 'error'
   }
 }
